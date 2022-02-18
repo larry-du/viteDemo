@@ -1,8 +1,6 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
-import Components from "unplugin-vue-components/dist/vite.js";
-import { ElementPlusResolver } from "unplugin-vue-components/dist/resolvers.js";
 import eslintPlugin from "vite-plugin-eslint";
 import checker from "vite-plugin-checker";
 
@@ -15,9 +13,6 @@ export default defineConfig({
       eslint: {
         files: ["./src"],
       },
-    }),
-    Components({
-      resolvers: [ElementPlusResolver()],
     }),
   ],
   resolve: {
