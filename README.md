@@ -1,3 +1,3 @@
-# Vite + VueX + VueRouter + ElementPlus + axios + ESLint + Prettier
+# Vite + VueX + VueRouter + axios + ESLint + Prettier
 
 Ｄemo 
